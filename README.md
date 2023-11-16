@@ -13,4 +13,4 @@ Divided into 2 types: Fault data and Normal data
 Fault data has further classification based upon the types explained above. Below is the legend for files' naming.
 Nomenclature: B -> Bearing fault, IR -> Inner race fault, OR -> Outer race fault, severity levels: 7, 14, 21
 
-So, for example, is the file name is B007.mat, it means it contains data from Drive end (DE), Fan end (FE), Ball (BA) sensors which corresponds to bearing fault of severity level 0.007''.
+So, for example, if the file name is B007.mat, it means it contains data from Drive end (DE), Fan end (FE), Ball (BA) sensors which corresponds to bearing fault of severity level 0.007''.
