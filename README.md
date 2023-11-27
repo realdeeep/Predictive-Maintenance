@@ -1,16 +1,31 @@
 # Predictive-Maintenance
 Prediction of fault type and severity in mechanical bearings based on sensor data.
 
-### What the project is about
-We have matlab files which contain accelerometer data from drive end, fan end and ball bearings, and the y lables include fault types and severity (total of 9 types). From this files we analyze the data, do feature engineering and then train the models using Naive Bayes and CNN.
+## Overview
+This project focuses on predicting fault types and severity in mechanical bearings using sensor data. By leveraging MATLAB files containing accelerometer data from various bearings, we conduct a detailed analysis, perform feature engineering, and train models using Naive Bayes and Convolutional Neural Networks (CNN).
 
-### So, how exactly do we do predictive maintenance?
-As mentioned before, there may be defects at 3 different locations and for 3 different levels of severity. So, combining them we get 9 types. These locations include: outer race, inner race and ball-bearings. And severity is basically the size of the defect in milimeters.
-After we have trained our models, when we give time series matlab data as input, we'll get which type of defect at which severity level might be present. Suppose the model predicts that there might be defects in outer race then it will be easy to decide where to put more focus on the next preventive maintenance cycle.
+## Purpose
+The primary goal is to enable predictive maintenance, identifying potential faults at three different locations (outer race, inner race, and ball bearings) and three severity levels. With a total of 9 possible fault types, the models assist in determining the nature and severity of defects based on sensor data. This predictive capability aids in optimizing maintenance efforts, allowing for targeted interventions where needed.
 
-### Data
-Divided into 2 types: Fault data and Normal data
-Fault data has further classification based upon the types explained above. Below is the legend for files' naming.
-Nomenclature: B -> Bearing fault, IR -> Inner race fault, OR -> Outer race fault, severity levels: 7, 14, 21
+## How It Works
+<b>Data Analysis</b>: MATLAB files include accelerometer data from drive end, fan end, and ball bearings.
+<b>Feature Engineering</b>: Extract relevant features from the sensor data to enhance model performance.
+<b>Model Training</b>: Utilize Naive Bayes and CNN to train predictive models on fault and normal data.
+<b>Predictive Maintenance</b>: Input time series MATLAB data to receive predictions about potential defects and their severity levels.
 
-So, for example, if the file name is B007.mat, it means it contains data from Drive end (DE), Fan end (FE), Ball (BA) sensors which corresponds to bearing fault of severity level 0.007''.
+## Data Classification
+The data is categorized into two main types:
+
+<b>Fault Data</b>: Further classified based on fault types (bearing, inner race, outer race) and severity levels (7, 14, 21).
+<b>Normal Data</b>: Represents the baseline condition without faults.
+### File Naming Convention
+<b>Fault Data</b>: Follows the nomenclature: B (Bearing fault), IR (Inner race fault), OR (Outer race fault), with severity levels denoted as 7, 14, 21.
+
+Example: B007.mat corresponds to data from Drive End (DE), Fan End (FE), and Ball (BA) sensors, indicating a bearing fault with severity level 0.007''.
+
+## Why Predictive Maintenance?
+<b>Efficient Resource Allocation</b>: Focus preventive maintenance efforts where defects are predicted, optimizing resource utilization.
+<b>Minimized Downtime</b>: Anticipate potential faults before they escalate, reducing unplanned downtime.
+<b>Cost Savings</b>: Targeted maintenance leads to cost savings by avoiding unnecessary interventions.
+
+Feel free to explore the provided MATLAB files and engage with the predictive maintenance capabilities of this project. Your feedback and contributions are highly appreciated!
