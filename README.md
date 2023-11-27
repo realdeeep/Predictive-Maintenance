@@ -17,6 +17,7 @@ The primary goal is to enable predictive maintenance, identifying potential faul
 The data is categorized into two main types:
 
 <b>Fault Data</b>: Further classified based on fault types (bearing, inner race, outer race) and severity levels (7, 14, 21).
+
 <b>Normal Data</b>: Represents the baseline condition without faults.
 
 ### File Naming Convention
