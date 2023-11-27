@@ -18,9 +18,9 @@ The data is categorized into two main types:
 
 <b>Fault Data</b>: Further classified based on fault types (bearing, inner race, outer race) and severity levels (7, 14, 21).
 <b>Normal Data</b>: Represents the baseline condition without faults.
+
 ### File Naming Convention
 <b>Fault Data</b>: Follows the nomenclature: B (Bearing fault), IR (Inner race fault), OR (Outer race fault), with severity levels denoted as 7, 14, 21.
-
 Example: B007.mat corresponds to data from Drive End (DE), Fan End (FE), and Ball (BA) sensors, indicating a bearing fault with severity level 0.007''.
 
 ## Why Predictive Maintenance?
