@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on predicting fault types and severity in mechanical bearings using sensor data. By leveraging MATLAB files containing accelerometer data from various bearings, we conduct a detailed analysis, perform feature engineering, and train models using Naive Bayes and Convolutional Neural Networks (CNN).
+This project focuses on predicting fault types and severity in mechanical bearings using sensor data. By using MATLAB files containing accelerometer data from various bearings, we conduct a detailed analysis, perform feature engineering, and train models using Naive Bayes and Convolutional Neural Networks (CNN).
 
 ## Purpose
 
