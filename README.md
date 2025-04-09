@@ -24,7 +24,7 @@ The data is categorized into two main types:
 ### File Naming Convention
 
 - **Fault Data:** Follows the nomenclature: `B` (Bearing fault), `IR` (Inner race fault), `OR` (Outer race fault), with severity levels denoted as 7, 14, 21.
-  - Example: `B007.mat` corresponds to data from Drive End (DE), Fan End (FE), and Ball (BA) sensors, indicating a bearing fault with severity level 0.007''.
+  - Example: `B021.mat` corresponds to data from Drive End (DE), Fan End (FE), and Ball (BA) sensors, indicating a bearing fault with severity level 0.021''.
 
 ## Why Predictive Maintenance?
 
